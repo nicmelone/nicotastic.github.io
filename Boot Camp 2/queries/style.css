@@ -1,0 +1,30 @@
+
+
+
+
+h1 {
+	height: 500px;
+	color: blue;
+	background-color: red;
+}
+
+@media screen and (min-width: 480px){
+	h1 {
+		height: 750px;
+		color: red;
+		background-color: white;
+		position: absolute;
+		right: 300px;
+	}
+}
+
+@media screen and (min-width: 920px){
+	h1 {
+		height: 1200px;
+		font-weight: bold;
+		color: white;
+		background-color: blue;
+		font-family: sans-serif;
+		float: right;
+	}
+}

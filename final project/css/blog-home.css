@@ -1,0 +1,179 @@
+.navbar-inverse {
+  border-bottom-color: #dd4814;
+  border-bottom-width: 10px;
+
+}
+
+body {
+	margin-top: 50px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+}
+
+body {
+  background-image: url(../images/stone.jpg);
+  background-repeat: repeat;
+}
+
+footer {
+	margin: 50px 0;
+	background-color: #000;
+	color: #fff;
+}
+
+#hero {
+	height: 500px;
+	background-image: url("../images/grass3.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.well {
+	background-color: #585858;
+}
+
+.btn-info {
+	background-color: #dd4814;
+	border-color: #dd4814;
+}
+
+#dogs {
+	border-radius: 50px;
+}
+
+#lucy {
+	border-radius: 50px;
+}
+
+#burg {
+	border-radius: 50px;
+}
+
+.btn-facebook {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2b4b90;
+  *background-color: #133783;
+  background-image: -moz-linear-gradient(top, #3b5998, #133783);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
+  background-image: -webkit-linear-gradient(top, #3b5998, #133783);
+  background-image: -o-linear-gradient(top, #3b5998, #133783);
+  background-image: linear-gradient(to bottom, #3b5998, #133783);
+  background-repeat: repeat-x;
+  border-color: #133783 #133783 #091b40;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.btn-facebook.disabled,
+.btn-facebook[disabled] {
+  color: #ffffff;
+  background-color: #133783;
+  *background-color: #102e6d;
+}
+
+.btn-facebook:active,
+.btn-facebook.active {
+  background-color: #0d2456 \9;
+}
+
+.btn-twitter {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #1c95d0;
+  *background-color: #0271bf;
+  background-image: -moz-linear-gradient(top, #2daddc, #0271bf);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2daddc), to(#0271bf));
+  background-image: -webkit-linear-gradient(top, #2daddc, #0271bf);
+  background-image: -o-linear-gradient(top, #2daddc, #0271bf);
+  background-image: linear-gradient(to bottom, #2daddc, #0271bf);
+  background-repeat: repeat-x;
+  border-color: #0271bf #0271bf #014473;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2daddc', endColorstr='#ff0271bf', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.btn-twitter.disabled,
+.btn-twitter[disabled] {
+  color: #ffffff;
+  background-color: #0271bf;
+  *background-color: #0262a6;
+}
+
+.btn-twitter:active,
+.btn-twitter.active {
+  background-color: #01538d \9;
+}
+
+.btn-instagram {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5c88ab;
+  *background-color: #3f729b;
+  background-image: -moz-linear-gradient(top, #6f97b6, #3f729b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6f97b6), to(#3f729b));
+  background-image: -webkit-linear-gradient(top, #6f97b6, #3f729b);
+  background-image: -o-linear-gradient(top, #6f97b6, #3f729b);
+  background-image: linear-gradient(to bottom, #6f97b6, #3f729b);
+  background-repeat: repeat-x;
+  border-color: #3f729b #3f729b #294a65;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6f97b6', endColorstr='#ff3f729b', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus,
+.btn-instagram:active,
+.btn-instagram.active,
+.btn-instagram.disabled,
+.btn-instagram[disabled] {
+  color: #ffffff;
+  background-color: #3f729b;
+  *background-color: #386589;
+}
+
+.btn-instagram:active,
+.btn-instagram.active {
+  background-color: #305777 \9;
+}
+
+#dinah {
+  float: left;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: left 150ms ease-out;
+} 
+
+
+.img-responsive {
+  max-height: 500px;
+}
+
+#animals {
+  position: relative;
+  
+}
+
+#animals:hover #dinah {
+  left: 50%;
+}
+
+#lucy {
+  border-radius: 50px;
+  position: relative;
+  z-index: 10;
+}
